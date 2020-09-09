@@ -10,6 +10,9 @@
   strong {
     font-weight: 500;
   }
+  &--blue {
+    color: $mainBlue;
+  }
 
   &--blue {
     color: $mainBlue;
@@ -23,8 +26,8 @@
 
     @mixin atSmall {
       position: relative;
-      top: 8px;
-      margin-right: .5rem;
+      top: 0.8rem;
+      margin-right: 0.5rem;
       margin-left: 0;
       margin-bottom: 0;
       display: inline-block;
