@@ -17,8 +17,8 @@ class RevealOnScroll {
       "resize",
       debounce(() => {
         console.log("resie just ran");
-        this.browserHeight = window.innerHeight;
-      })
+        this.browserHeight = window.innerHeight
+      }, 333)
     );
   }
 
@@ -28,7 +28,7 @@ class RevealOnScroll {
       if (el.isRevealed == false) {
         this.calculateIfScrolledTo(el);
       }
-    }, 333);
+    });
   }
 
   calculateIfScrolledTo(el) {
